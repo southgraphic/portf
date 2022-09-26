@@ -1,0 +1,104 @@
+/* nav styles */
+
+/* Color Theme Swatches in Hex */
+
+:root { 
+--light-blue: #1C93CC; 
+--medium-blue: #2B6299; 
+--seafoam : #00FFB6; 
+--hunter-green: #00402E;
+--orange : #FF4F3F; 
+--cherry : #AC1438; 
+
+}
+/* Color Theme Swatches in RGBA */
+.favorites-1-rgba { color: rgba(28, 147, 204, 1); }
+.favorites-2-rgba { color: rgba(43, 98, 153, 1); }
+.favorites-3-rgba { color: rgba(0, 255, 182, 1); }
+.favorites-4-rgba { color: rgba(255, 79, 63, 1); }
+.favorites-5-rgba { color: rgba(172, 20, 56, 1); }
+
+/* Color Theme Swatches in HSLA */
+.favorites-1-hsla { color: hsla(199, 75, 45, 1); }
+.favorites-2-hsla { color: hsla(210, 56, 38, 1); }
+.favorites-3-hsla { color: hsla(162, 100, 50, 1); }
+.favorites-4-hsla { color: hsla(5, 100, 62, 1); }
+.favorites-5-hsla { color: hsla(345, 79, 37, 1); }
+
+body {
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+}
+
+header {
+    box-shadow: #333;
+    font-weight: 600;
+}
+.header-script {
+    color: var(--light-blue);
+    font-weight: 600;
+}
+
+.nav-link {
+    color: var(--light-blue);
+}
+
+.nav-link.active {
+    background-color: var(--light-blue) !important;
+    columns: #fff;
+}
+
+.hero1 {
+
+    font-weight: 700;
+}
+
+.button {
+    background-color: var(--medium-blue);
+    color: #fff;
+    border-radius: 0%;
+}
+
+.button:hover, [type="submit"]:hover {
+    background-color: var(--seafoam);
+    color: var(--hunter-green);
+    transition: background-color .3s,color .3s;
+    transition-property: background-color, color;
+    transition-duration: 0.3s, 0.3s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+  }
+
+ .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 27px;
+    height: 17px;
+    fill: #0c0c0c;
+
+  }
+
+  .skills {
+
+    border-top: #00402E 1px solid;
+    border-bottom: #00402E 1px solid;
+    border-left: #00402E 1px solid;
+    border-right: #00402E 1px solid;
+    width: 426px;
+    height: 184px;
+  }
+
+  .contact-us {
+
+    background-color: var(--orange);
+    color: #fff;
+    height:  25vh;
+    width: 100vw;
+  }
+
+  .footer {
+    background-color: #00402E;
+    color: #fff;
+  }
